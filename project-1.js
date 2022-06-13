@@ -4,7 +4,7 @@ const multiplyByTen = (num) => {
   
   return num*10;
 }
-  multiplyByTen(4,10);
+  multiplyByTen(10);
  
 
 
@@ -34,6 +34,14 @@ const areEqual = (x, y) => {
   // return true if x and y are the same
   // otherwise return false
   // code here
+  if(x===y)
+  {
+    return true;
+  }
+  else
+  {
+    return false;
+  }
 };
 
 const lessThanNinety = (num) => {
