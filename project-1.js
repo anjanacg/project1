@@ -235,8 +235,7 @@ const getRectangularPrismVolume = (length, width, height) => {
   console.log(length*width*height);
 };
 getRectangularPrismVolume(2,3,4);
-// Do not modify code below this line.
-// --------------------------------
+
 
 module.exports = {
   multiplyByTen,
