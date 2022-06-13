@@ -1,10 +1,11 @@
 // Do not change any of the funcxtion names
 
-const multiplyByTen = (num) => 
-  const multiplyByTen = (num) => 
-  num*10;
+const multiplyByTen = (num) => {
+  
+  return num*10;
+}
   multiplyByTen(4,10);
- ;
+ 
 
 
 
