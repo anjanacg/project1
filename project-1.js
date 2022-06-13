@@ -2,7 +2,7 @@
 
 const multiplyByTen = (num) => {
   
-  return num*10;
+  console.log(num*10) ;
 }
   multiplyByTen(10);
  
@@ -43,75 +43,132 @@ const areEqual = (x, y) => {
     return false;
   }
 };
+areEqual(12,12);
 
 const lessThanNinety = (num) => {
   // return true if num is less than ninety
   // otherwise return false
   // code here
+  if(num<90)
+  {
+    return true;
+
+  }
+  else{
+    return false;
+  }
 };
+lessThanNinety(56);
 
 const greaterThanFifty = (num) => {
   // return true if num is greater than fifty
   // otherwise return false
   // code here
-};
+  if(num<50)
+  {
+    return true;
+
+  }
+  else{
+    return false;
+  }
+};greaterThanFifty(50);
+
 
 const add = (x, y) => {
   // add x and y together and return the value
   // code here
+  return x+y;
 };
+add(12,13);
 
 const subtract = (x, y) => {
   // subtract y from x and return the value
   // code here
+  return x-y;
 };
+subtract(12-9);
 
 const divide = (x, y) => {
   // divide x by y and return the value
   // code here
+  return x/y;
 };
+divide(9,3);
 
 const multiply = (x, y) => {
   // multiply x by y and return the value
   // code here
+  return x*y;
 };
+multiply(2,3);
 
 const getRemainder = (x, y) => {
   // return the remainder from dividing x by y
   // code here
+  return x%y;
 };
+getRemainder(9,3);
+
 
 const isEven = (num) => {
   // return true if num is even
   // otherwise return false
   // code here
+  if(num%2==0)
+  {
+    return true;
+  }
+  else
+  {
+    return false;
+  }
 };
+isEven(12);
 
 const isOdd = (num) => {
   // return true if num is odd
   // otherwise return false
   // code here
+  if(num%2==1)
+  {
+    return true;
+  }
+  else
+  {
+    return false;
+  }
 };
+isOdd(12);
+
 
 const square = (num) => {
   // square num and return the new value
   // code here
+  return num*num;
 };
+square(5);
 
 const cube = (num) => {
   // cube num and return the new value
   // code here
+  return num*num*num
 };
+cube(5);
 
 const raiseToPower = (num, exponent) => {
   // raise num to whatever power is passed in as exponent
   // code here
+  return((Math.pow(num, exponent)));
 };
+raiseToPower(3,4);
 
 const roundNumber = (num) => {
   // round num and return it
   // code here
+  return(Math.round(num)) 
 };
+roundNumber(0.9);
 
 const roundUp = (num) => {
   // round num up and return it
